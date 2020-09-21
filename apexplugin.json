@@ -1,0 +1,33 @@
+{
+  "name" : "APEX-MultiRow-Item-Plugin",
+  "version" : "1.0",
+  "description" : "This plugin create a multi row APEX item",
+  "keywords" : ["ORCLAPEX", "APEX", "ITEM", "ICONS"],
+  "homepage" : "https://github.com/rodrigomesquitaorclapex/APEX-MultiRow-Item-Plugin",
+  "bugs" : {
+    "url" : "https://github.com/rodrigomesquitaorclapex/APEX-MultiRow-Item-Plugin/issues",
+    "email" : "rodrigomesquita.ti@gmail.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Rodrigo Mesquita",
+    "email" : "odrigomesquita.ti@gmail.com",
+    "donationUrl" : "https://paypal.me/RodrigoMesquita?locale.x=en_GB"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/rodrigomesquitaorclapex/APEX-MultiRow-Item-Plugin.git"
+  },
+  "oracle" : {
+    "versions" : ["10.2.04", "11.2.0.1", "12.1.0.1", "12.2.0.1" ],
+    "apex" : {
+      "versions" : ["18.1.0", "18.2.0", "19.1.0"],
+      "plugin" : {
+        "internalName" : "MESQUITAROD.MULTIROW.ITEM",
+        "type" : "item",
+        "demo" : "http://bit.ly/2Io4U7E",
+        "previewImage" : "https://raw.githubusercontent.com/rodrigomesquitaorclapex/APEX-MultiRow-Item-Plugin/master/Preview.gif"
+      }
+    }
+  }
+}
