@@ -1,0 +1,4 @@
+.multiRow-displayOnly{
+    pointer-events: none;
+    border-style: none !important;
+}
